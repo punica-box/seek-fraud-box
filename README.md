@@ -11,6 +11,15 @@ The Ontofraud team (Emil Balashov, Ruslan Dautov and Vlad Sergeev) has built the
 - init python virtual environment.
 - install needed packages `pip install -r requirements.txt`.
 - install PostgreSQL and create a DB `onto`, it should be avialble by URL: `postgres://localhost:5432/onto'`.
+
+![pgAdmin](img/pgAdmin.png)
+
 - run `./manage.py migrate`.
 - run `./manage.py collectstatic`.
 - Then run the server `./manage.py runserver`.
+
+<div align=center><img width="200" src="img/djangoMobile.jpg"/></div>
+
+<div align=center><img width="500" src="img/djangoUi.png"/>
+
+<div align=center><img width="500" src="img/djangoAdmin.png"/></div>
